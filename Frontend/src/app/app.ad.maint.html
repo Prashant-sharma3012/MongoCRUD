@@ -1,0 +1,28 @@
+<div class="panel panel-success">
+    <div class="panel-heading">Ad update/add</div>
+    <div class="panel-body">
+        <p>Please Enter Details and press Submit</p>
+    </div>
+    <div class="input-group ">
+        <span class="input-group-addon" id="sizing-addon1">Product Name</span>
+        <input type="text" class="form-control" aria-describedby="sizing-addon1" [(ngModel)]='product'>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon1">Description</span>
+        <input type="text" class="form-control" aria-describedby="sizing-addon1" [(ngModel)]='desc'>
+    </div>
+    <div class="input-group ">
+        <span class="input-group-addon" id="sizing-addon1">Selling Price</span>
+        <input type="text" class="form-control" aria-describedby="sizing-addon1" [(ngModel)]='cost'>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon1">Address</span>
+        <input type="text" class="form-control" aria-describedby="sizing-addon1" [(ngModel)]='location'>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon1">contact</span>
+        <input type="text" class="form-control" aria-describedby="sizing-addon1" [(ngModel)]='contact'>
+    </div>
+    <div class="input-group">
+        <button class="btn btn-success" role="button" (click)="submitAd()">Submit</button>
+    </div>
